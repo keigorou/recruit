@@ -1,0 +1,8 @@
+{% block subject %}
+    {{ recruit.store }}への応募を受け付けました。
+{% endblock subject %}
+
+{% block content %}
+{{ recruit.hourlywage }}
+{{ name }}
+{% endblock %}
