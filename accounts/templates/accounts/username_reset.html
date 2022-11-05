@@ -1,11 +1,11 @@
 {% block subject %}
-ブログチュートリアル　メールアドレスリセット
+メールアドレスリセット
 {% endblock subject %}
 
 {% block text_body %}
 {{ name }}様
 以下のリンクからメールアドレスを再設定して下さい。
-{{ protocol }}:{{ domail }}//{{ url|safe }}
+{{ protocol }}:{{ domain }}//{{ url|safe }}
 
 
 {% endblock text_body %}
